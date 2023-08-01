@@ -1,0 +1,55 @@
+body{
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+    float: left;
+}
+#time{
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+}
+#to_be_drawn{
+    color: olive;
+}
+body{
+    background-color: bisque;
+    font-size: 35px;
+}
+
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+    float: left;
+}
+
+#show_sketch{
+    float: right;
+}
+
+u{
+    color: rgb(13, 13, 14);
+background-color:rgb(154, 189, 218);
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: border_color;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes border_color{
+    from{box-shadow: 1px 1px 38px gray;}
+    to{box-shadow: 1px 38px lightpink;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
